@@ -9,7 +9,7 @@
 	var/list/apcs //APCs the computer has access to
 	var/mob/living/operator //Who's operating the computer right now
 	var/obj/machinery/power/apc/active_apc //The APC we're using right now
-	var/list/filters //For sorting the results
+	var/list/_filters //For sorting the results
 	var/checking_logs = 0
 	var/list/logs
 	var/authenticated = 0

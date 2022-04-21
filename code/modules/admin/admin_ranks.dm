@@ -28,7 +28,7 @@ GLOBAL_PROTECT(admin_ranks)
 	return FALSE
 
 #if DM_VERSION > 512
-#error remove the rejuv keyword from this proc
+#warn remove the rejuv keyword from this proc
 #endif
 /proc/admin_keyword_to_flag(word, previous_rights=0)
 	var/flag = 0

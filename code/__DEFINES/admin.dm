@@ -35,7 +35,7 @@
 #define R_SPAWN			4096
 
 #if DM_VERSION > 512
-#error Remove the flag below , its been long enough
+#warn Remove the flag below , its been long enough
 #endif
 //legacy , remove post 512, it was replaced by R_POLL
 #define R_REJUVINATE	2
